@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        bat(script: 'bat "mvn -Dmaven.test.skip=true clean package"', returnStatus: true)
+        bat(script: 'mvn -Dmaven.test.skip=true clean package', returnStatus: true)
       }
     }
 
