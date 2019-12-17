@@ -26,7 +26,7 @@ pipeline {
 
     stage('Deploy') {
       steps {
-        echo 'Deploying....'
+        echo 'Ura! Ura! Deploying....'
       }
     }
 
